@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./pictures/favicon.ico">
+  <link rel="stylesheet" href="./css/piggy.css">
+  <title>PiggyVest | Dashboard</title>
+</head>
+<body>
+  <div class="container">
+  <header>
+    <img src="./pictures/piggyvest-logo.jpg" alt="logo">
+  </header>
+
+  <main>
+    <div id="headline">
+      <h2>Create a Secure Account</h2>
+      <p>Welcome to the future of Savings & Investments</p>
+    </div>
+    <form>
+      <div class="survey">
+        <label for="fname">Full Name</label>
+        <br>
+        <input type="text" id="fname" name="fname" placeholder="Full Name" required>
+      </div>
+
+      <div class="survey">
+        <label for="email">Email Address</label>
+        <br>
+        <input type="text" id="email" name="email" placeholder="Email Address" required>
+      </div>
+
+      <div class="survey">
+        <label for="phone-num">Phone Number</label>
+        <br>
+        <input type="text" id="phone-num" name="phone-num" placeholder="Phone Number" required>
+      </div>
+
+      <div class="survey">
+        <label for="password">Password</label>
+        <br>
+        <input type="text" id="password" name="password" placeholder="Password" required>
+      </div>
+
+      <div class="survey">
+        <label for="ref">Referrer Phone or Promo Code (Optional)</label>
+        <br>
+        <input type="text" id="ref" name="ref" placeholder="Referrer Phone Or Code">
+      </div>
+
+      <div class="survey">
+        <label for="inquiry">How Did You Hear About Us? (Optional)</label>
+        <select name="options" id="options" required>
+          <option value="click">Click To Select</option>
+          <option value="facebook">Facebook</option>
+          <option value="twitter">Twitter</option>
+          <option value="instagram">Instagram</option>
+          <option value="friend">Friend/Family/Coworker Referral</option>
+          <option value="search">Google search</option>
+          <option value="playstore">Google playstore</option>
+          <option value="blog">Online Blog</option>
+          <option value="newspaper">Local Newspaper</option>
+          <option value="event">At an event </option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="survey">
+        <input type="submit" value="CREATE ACCOUNT">
+      </div>
+
+    </form>
+  </main>
+
+  <footer>
+    <p><a href="#">Already have an account? Log in</a></p>
+  </footer>
+</div>
+
+</body>
+</html>
